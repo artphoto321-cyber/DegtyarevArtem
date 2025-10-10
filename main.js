@@ -39,7 +39,10 @@ console.log(+"Number1");//не число NaN
 console.log(typeof(+"Number1"));//тип значения Number
 console.log(+"5");// унарный плюс приводит String к Number
 
-
-
-
-
+const a = 5;
+const b = 5;
+console.log(a == b);//типы приводить не нужно, происходит сравнение
+const c = 5;
+const d = '5';
+console.log(c == d);//String переменной d приводится к Number переменной с и сравнивается
+console.log(c === d);//сравниваются значения переменных(String и Number), они отличаются, выводится false
