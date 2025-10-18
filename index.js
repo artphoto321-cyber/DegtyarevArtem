@@ -1,22 +1,22 @@
 /* цикл if else */
-/* let age =prompt("Введите возраст")
+let age =prompt("Введите возраст")
 if (age<18) {
     alert("Доступ запрещен");
 }
 if (age>=18) {
     alert("Доступ разрешен");
-}  */ 
+}  
 
 
 
 /* тернарный оператор */
-/* let age =prompt("Введите возраст")
-alert(age<18?"Доступ запрещен":"Доступ разрешен") */
+let userAge =prompt("Введите возраст")
+alert(userAge<18?"Доступ запрещен":"Доступ разрешен")
 
 
 
 /* цикл switch */
-/* let daysWeek=prompt("Введите день недели")
+let daysWeek=prompt("Введите день недели")
 switch(daysWeek){
     case "1" : alert ("Понедельник")
     break
@@ -40,14 +40,14 @@ switch(daysWeek){
     break
 
     default :alert ("Ошибка: такого дня нет!")
-} */
+}
 
 
 
  /* for, выводим квадраты чисел */
-/* for (let i =1; i<10; i++){
+for (let i =1; i<10; i++){
 console.log(i*i)
-} */
+}
 
 
 
@@ -58,7 +58,7 @@ const hasToken = false;
 
 
 //проверка через форму ввода на сайте
-/* let userStatus= prompt ("Представтесь!")
+let userStatus= prompt ("Представтесь!")
 switch(userStatus) {
     case 'isAdmin':
         alert("Привет, Админ!")
@@ -68,38 +68,38 @@ switch(userStatus) {
         break
     default:
         alert("Я тебя не знаю!")
-} */
+}
 
 
 
 //просто циклом в коде
-/* if (userStatus=isAdmin){
+if (userStatus=isAdmin){
     console.log("Привет, Админ!")
 } else if (userStatus=hasToken){
     console.log ("Привет, токен имеющий!")
 } else {
     console.log("Я тебя не знаю!")
-} */
+}
 
 
 
 //и, или, не
-/* let x = 15
-console.log(x>=10&&x<=20&&x!=15) */
+let x = 15
+console.log(x>=10&&x<=20&&x!=15)
 
 
 
 //Задание 3 стр.2
-/* let i = 5
-while (i >= 0){
-    console.log(i--)
-} */
+let u = 5
+while (u >= 0){
+    console.log(u--)
+}
 
 
 
 //Задание 4 стр.2
-/* for(let i =1; i<=10; i ++){
-    if (i===7){
+for(let y=1; y<=10; y ++){
+    if (y===7){
         console.log("continue")
     continue
     }
@@ -107,25 +107,25 @@ while (i >= 0){
         console.log("break")
         break
         }
-console.log(i)
-} */
+console.log(y)
+}
 
 
 
 //задание 5 стр 2
-/* const a=333
+const a=333
 const b=5
 const c=30
 
 let result = a>b? a:b
 let result1= b>c? b:c
 let result2=result>result1? result:result1
-console.log(result2) */
+console.log(result2)
 
 
 
 //задание 1 стр. 3
-/* let temperature = 10
+let temperature = 10
 if (temperature<=-30) {
     console.log("Оставайтесь дома!")
 } else if (temperature>-30, temperature<-10){
@@ -140,12 +140,12 @@ if (temperature<=-30) {
     console.log("Жарко")
 } else if (temperature>=35){
     console.log("Пекло!")
-} */
+}
 
 
 
 //Задание 2 стр.3
-/* role= "guest"
+role= "guest"
 switch(role){
     case "Admin":
         console.log("Добро пожаловать, Администратор!")
@@ -159,7 +159,7 @@ switch(role){
     case "guest":
         console.log("Пожалуйста, войдите в систему")
         break
-} */
+}
 
 
 
